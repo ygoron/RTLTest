@@ -34,9 +34,11 @@
 		927D0E781784F34C008A3344 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		927D0E7A1784F34C008A3344 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		927D0E7C1784F34C008A3344 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		927D0E7F1784F34C008A3344 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		927D0E811784F34C008A3344 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		927D0E821784F34C008A3344 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		927D0E891784F4A4008A3344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		927D0E8B1784F4B1008A3344 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		927D0E8E1784F4DF008A3344 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/MainStoryboard.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
+				he,
 			);
 			mainGroup = 927D0E5A1784F34B008A3344;
 			productRefGroup = 927D0E641784F34B008A3344 /* Products */;
@@ -186,6 +190,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				927D0E701784F34C008A3344 /* en */,
+				927D0E8B1784F4B1008A3344 /* he */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -193,7 +198,8 @@
 		927D0E7E1784F34C008A3344 /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				927D0E7F1784F34C008A3344 /* en */,
+				927D0E891784F4A4008A3344 /* Base */,
+				927D0E8E1784F4DF008A3344 /* he */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
